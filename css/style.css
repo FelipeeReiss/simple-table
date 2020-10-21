@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.table {
+  border-collapse: collapse;
+  width: auto;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.legend {
+  background-color: #0070c0;
+  color: white;
+  padding: 5px 0;
+  border: 1px solid white;
+  border-bottom: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table__th-thead {
+  background-color: #0070c0;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+.table__tbody td {
+  border: 1px solid white;
+  padding: 0 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.table__tbody:nth-child(even) {
+  background-color: #d9d9d9;
+}
+
+.table__tbody:nth-child(odd) {
+  background-color: #b4c6e7;
+}
+
+.table__td-tfoot {
+  text-align: end;
+  color: #0070c0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table__td-tfoot a {
+  color: #0070c0;
+  transition: 0.3s linear;
+  text-decoration: none;
+  border: none;
+}
+
+a:hover {
+  color: #fa8072;
+  transition: 0.3s linear;
+}
